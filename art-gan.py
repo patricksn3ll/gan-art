@@ -24,7 +24,7 @@ GENERATE_RES = 3
 IMAGE_SIZE = 128 # rows/cols
 IMAGE_CHANNELS = 3
 
-training_data = np.load('../cubism_data.npy/cubism_data.npy')
+training_data = np.load('../cubism_data.npy')
 
 #training_data = np.load(os.path.join('dirname', 'cubism_data.npy'))
 
